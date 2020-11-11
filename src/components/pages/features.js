@@ -14,7 +14,7 @@ function Background() {
           left: "50%",
           top: "50%",
           height: "100%",
-          objectFit: "cover",
+          objectFit: "repeat",
           transform: "translate(-50%,-50%)",
           zIndex: "-1",
         }}
@@ -26,6 +26,3 @@ function Background() {
 }
 
 export default Background;
-
-// import Background from "./components/pages/features";
-// <Background />

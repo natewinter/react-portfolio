@@ -1,11 +1,12 @@
 import React from "react";
 import Background from "./features";
+
 function Discover() {
   return (
     <div>
       <img
         src="https://raw.githubusercontent.com/elijah415hz/election-dashboard/dev/elected_officials.png"
-        class="img-fluid img-thumbnail"
+        className="img-fluid img-thumbnail"
         alt="My Election Dashboard img"
       ></img>
       <a href="https://elijah415hz.github.io/election-dashboard/">
@@ -18,12 +19,12 @@ function Discover() {
         Election Dashboard is a one stop site to get information about all of
         your US elected officials. Just enter your address, and Election
         Dashboard will display all of your elected officials, from president all
-        the way down to city officials.{" "}
+        the way down to city officials.
       </div>
       <div>
         <img
           src="https://user-images.githubusercontent.com/25919007/94608897-f1121500-0252-11eb-9b25-592341de9144.png"
-          class="img-fluid img-thumbnail"
+          className="img-fluid img-thumbnail"
           alt="Password Generator img"
         />
         <a href="https://natewinter.github.io/PasswordGenerator/">
