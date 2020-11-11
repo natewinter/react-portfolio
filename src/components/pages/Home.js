@@ -11,7 +11,7 @@ function Home() {
         style={{
           position:"absolute",
           width:"100%",
-          left:"100%",
+          left:"50%",
           top:"50%",
           height:"100%",
           objectFit:"cover",
