@@ -26,3 +26,6 @@ function Background() {
 }
 
 export default Background;
+
+// import Background from "./components/pages/features";
+// <Background />
