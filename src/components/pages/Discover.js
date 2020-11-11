@@ -1,5 +1,5 @@
 import React from "react";
-
+import Background from "./features";
 function Discover() {
   return (
     <div>
@@ -39,6 +39,9 @@ function Discover() {
           always go back to your notes and look for new knowldege!
         </div>
       </div>
+      <Background />
+      <Background />
+      <Background />
     </div>
   );
 }

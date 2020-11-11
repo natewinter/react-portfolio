@@ -1,6 +1,5 @@
 import React from "react";
-// import Background from "./components/pages/features";
-// <Background />
+
 function Home() {
   return (
     <div>
