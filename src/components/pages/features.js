@@ -14,7 +14,7 @@ function Background() {
           left: "50%",
           top: "50%",
           height: "100%",
-          objectFit: "repeat",
+          objectFit: "cover",
           transform: "translate(-50%,-50%)",
           zIndex: "-1",
         }}

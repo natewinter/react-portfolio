@@ -5,6 +5,7 @@ import Home from "./components/pages/Home";
 import Navbar from "./components/Navbar/index";
 import Background from "./components/pages/features";
 import Footer from "./components/pages/footer/footer";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
