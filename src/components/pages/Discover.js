@@ -2,12 +2,16 @@ import React from "react";
 import CardDeck from "react-bootstrap/CardDeck";
 import Card from "react-bootstrap/Card";
 import Image from "../../assests/password.png";
+import "./style.css";
 
 function Discover() {
   return (
-    <CardDeck style={{ width: "75%" }}>
+    <CardDeck className="carddeck" style={{ width: "75%" }}>
       <Card bg="dark" text="light">
         <Card.Img
+          class
+          id="cardpic"
+          Name="PortPic img-fluid img-thumbnail"
           variant="top"
           src="https://raw.githubusercontent.com/elijah415hz/election-dashboard/dev/elected_officials.png"
         />
@@ -28,7 +32,12 @@ function Discover() {
         </Card.Footer>
       </Card>
       <Card bg="dark" text="light">
-        <Card.Img variant="top" src={Image} />
+        <Card.Img
+          id="cardpic"
+          className="PortPic img-fluid img-thumbnail"
+          variant="top"
+          src={Image}
+        />
         <Card.Body>
           <Card.Title>Password Generator!</Card.Title>
           <Card.Text>
@@ -46,6 +55,8 @@ function Discover() {
       </Card>
       <Card bg="dark" text="light">
         <Card.Img
+          id="cardpic"
+          className="PortPic img-fluid img-thumbnail"
           variant="top"
           src="https://user-images.githubusercontent.com/25919007/98888741-5d388900-244d-11eb-813a-fb05f0fa81b1.png"
         />

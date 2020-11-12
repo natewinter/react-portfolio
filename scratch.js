@@ -59,3 +59,41 @@ import Image from "../../assests/password.png";
     </Card.Footer>
   </Card>
 </CardDeck>;
+
+// need to add rollover functionality ex: on hover show text. need emotion/styled?
+<Carousel>
+  <Carousel.Item>
+    <img
+      className="d-block "
+      src="https://raw.githubusercontent.com/elijah415hz/election-dashboard/dev/elected_officials.png"
+      alt="First slide"
+    />
+    <Carousel.Caption>
+      <h3>Election Dashboard</h3>
+      <p>
+        App that takes user address and shows you your representatives from
+        local all the way to federal
+      </p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img className="d-block " src={Image} alt="Third slide" />
+
+    <Carousel.Caption>
+      <h3>Password Generator</h3>
+      <p>Password generator made with vanilla javascript!</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block"
+      src="https://user-images.githubusercontent.com/25919007/98888741-5d388900-244d-11eb-813a-fb05f0fa81b1.png"
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3>Multi-Choice quiz</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>;
