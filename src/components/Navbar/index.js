@@ -6,9 +6,6 @@ import "./style.css";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/">
-        home
-      </Link>
       <div>
         <ul className="navbar-nav">
           <li className="nav-item">
@@ -25,9 +22,9 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link
-              to="/search"
+              to="/about"
               className={
-                window.location.pathname === "/search"
+                window.location.pathname === "/About"
                   ? "nav-link active"
                   : "nav-link"
               }
