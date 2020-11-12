@@ -4,20 +4,22 @@ import Discover from "./components/pages/Discover";
 import Home from "./components/pages/Home";
 import Navbar from "./components/Navbar/index";
 import Background from "./components/pages/features";
-import Footer from "./components/pages/footer/footer";
 import "bootstrap/dist/css/bootstrap.min.css";
+import BottomBar from "./components/pages/footer/footer";
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Navbar />
-        <Background />
-        <Route exact path="/" component={Home} />
-        <Route exact path="/Discover" component={Discover} />
-        <Footer />
-      </div>
-    </Router>
+    <div>
+      <Router>
+        <div>
+          <Navbar />
+          <Background />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/Discover" component={Discover} />
+        </div>
+      </Router>
+      <BottomBar />
+    </div>
   );
 }
 export default App;

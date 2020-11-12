@@ -20,7 +20,7 @@ function Navbar() {
                   : "nav-link"
               }
             >
-              Discover
+              Projects
             </Link>
           </li>
           <li className="nav-item">
@@ -32,7 +32,7 @@ function Navbar() {
                   : "nav-link"
               }
             >
-              Search
+              About
             </Link>
           </li>
         </ul>

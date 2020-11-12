@@ -1,11 +1,12 @@
 import React from "react";
+import CardDeck from "react-bootstrap/CardDeck";
 import Card from "react-bootstrap/Card";
 import Image from "../../assests/password.png";
 
 function Discover() {
   return (
-    <div>
-      <Card style={{ width: "18rem" }}>
+    <CardDeck style={{ width: "75%" }}>
+      <Card bg="dark" text="light">
         <Card.Img
           variant="top"
           src="https://raw.githubusercontent.com/elijah415hz/election-dashboard/dev/elected_officials.png"
@@ -13,39 +14,57 @@ function Discover() {
         <Card.Body>
           <Card.Title>Election Dashboard</Card.Title>
           <Card.Text>
-            Election Dashboard is a one stop site to get information about all
-            of your US elected officials. Just enter your address, and Election
-            Dashboard will display all of your elected officials, from president
-            all the way down to city officials.
+            App that takes user address and shows you your representatives from
+            local all the way to federal
           </Card.Text>
+        </Card.Body>
+        <Card.Footer>
           <Card.Link href="https://elijah415hz.github.io/election-dashboard/">
             Deployed Site!
           </Card.Link>
-          <Card.Link href="https://elijah415hz.github.io/election-dashboard/">
+          <Card.Link href="https://github.com/elijah415hz/election-dashboard">
             Github Repo!
           </Card.Link>
-        </Card.Body>
+        </Card.Footer>
       </Card>
-
-      <Card style={{ width: "18rem" }}>
+      <Card bg="dark" text="light">
         <Card.Img variant="top" src={Image} />
         <Card.Body>
           <Card.Title>Password Generator!</Card.Title>
           <Card.Text>
-            The password generator was my first big programming hurdle. It was
-            the first project that incorporated all of my prior knowldege.
-            Looking back it is was a nescesarry hurdle that helped push me to
-            remember to always go back to your notes and look for new knowldege!
+            Password generator made with vanilla javascript!
           </Card.Text>
+        </Card.Body>
+        <Card.Footer>
           <Card.Link href="https://natewinter.github.io/PasswordGenerator/">
             Deployed Site!
           </Card.Link>
           <Card.Link href="https://github.com/natewinter/PasswordGenerator">
             Github Repo!
           </Card.Link>
-        </Card.Body>
+        </Card.Footer>
       </Card>
-    </div>
+      <Card bg="dark" text="light">
+        <Card.Img
+          variant="top"
+          src="https://user-images.githubusercontent.com/25919007/98888741-5d388900-244d-11eb-813a-fb05f0fa81b1.png"
+        />
+        <Card.Body>
+          <Card.Title>Multichoice quiz</Card.Title>
+          <Card.Text>
+            Multi choice quiz created with only vanilla html and css!
+          </Card.Text>
+        </Card.Body>
+        <Card.Footer>
+          <Card.Link href="https://natewinter.github.io/PasswordGenerator/">
+            Deployed Site!
+          </Card.Link>
+          <Card.Link href="https://github.com/natewinter/Multi-Choice-Quiz">
+            Github Repo!
+          </Card.Link>
+        </Card.Footer>
+      </Card>
+    </CardDeck>
   );
 }
 
