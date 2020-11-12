@@ -2,3 +2,13 @@
   max-width: 350px;
   max-height: 350px;
 }
+#pic1,
+#pic2 {
+  left: 100;
+  margin: 0;
+  position: cover;
+  top: 50%;
+}
+.caption {
+  top: 200px;
+}
