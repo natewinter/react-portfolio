@@ -12,3 +12,10 @@
 .caption {
   top: 200px;
 }
+
+.enter {
+  margin-top: 35vh;
+  margin-left: 45vw;
+  margin-right: 45vw;
+  background-color: grey;
+}

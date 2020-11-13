@@ -2,11 +2,11 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Discover from "./components/pages/Discover";
 import About from "./components/pages/About";
+import Home from "./components/pages/Home";
 import Navbar from "./components/Navbar/index";
 import Background from "./components/pages/features";
 import "bootstrap/dist/css/bootstrap.min.css";
 import BottomBar from "./components/pages/footer/footer";
-import Home from "./components/pages/Home";
 
 function App() {
   return (
