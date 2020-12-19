@@ -1,5 +1,6 @@
 import React from "react";
-import Seattle from "../video/foggySeattle.mp4";
+import Seattle from "../components/video/foggySeattle.mp4";
+import Rain from "../components/video/rain.mp4";
 
 function Background() {
   return (
@@ -13,13 +14,12 @@ function Background() {
           width: "100%",
           left: "50%",
           top: "50%",
-          height: "100%",
           objectFit: "cover",
           transform: "translate(-50%,-50%)",
           zIndex: "-1",
         }}
       >
-        <source src={Seattle} type="video/mp4" />
+        <source src={Rain} type="video/mp4" />
       </video>
     </div>
   );
